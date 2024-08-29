@@ -1,0 +1,53 @@
+*body{
+    background-color: hsl(188, 52%, 40%);
+}
+.register-page{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    background-color: #4fc6c8;
+}
+
+.register-page h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(0, 1, 0);
+}
+.register-page form{
+    display: flex;
+    flex-direction: column;
+
+}
+.register-page{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px, solid;
+    border-radius: 5px 
+    
+}
+
+
+.register-page button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: #0686dc;
+    color: hwb(180 4% 93%);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+
+}
+.message{
+    background: white;
+    color:rgb(0, 128, 34);
+    padding: 10px;
+    border: 1px solid#d6e9c6;
+    border-radius: 4px;
+    margin-bottom: auto;
+}
+.register-page button :hover{
+    background-color: #218838;
+
+ }

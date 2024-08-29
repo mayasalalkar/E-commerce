@@ -1,0 +1,65 @@
+.login-page {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.login-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+.login-page button {
+    padding: 10px;
+    font-size: 14px; 
+    background-color: yellow;
+    color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.add-to-cart-button {
+    padding: 10px 20px;
+    font-size: 16px; 
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+    background-color: lightgreen;
+    color: black;
+}
